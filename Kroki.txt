@@ -1,0 +1,16 @@
+Zmiany względem Case Study:
+- dodano 2 nowe tabele
+- usunięto zmienne typu listy
+- zmiana formy mnogiej rzeczowników
+- zmiana typów danych
+
+Etap 1:
+- skrypty tworzące/usuwające constrainty i tabele
+- wypełnienie danymi
+- stworzenie przykładowych zapytań
+- poprawienie tabelek osiagniecie, przedmiot
+- zapytania dla userow w formie procedur
+- stworzenie i udostepnienie ich userom - testy
+
+TODO:
+- widoki dla userow
