@@ -13,17 +13,17 @@ BEGIN
 END
 GO
 
-DECLARE @nazwa_gry varchar(20)
-DECLARE @ilosc_botow integer
-SET @nazwa_gry = 'Gra_testowa'
-SET @ilosc_botow = 10
-EXEC DodajSrodowisko @nazwa_gry, @ilosc_botow
-GO
+-- DECLARE @nazwa_gry varchar(20)
+-- DECLARE @ilosc_botow integer
+-- SET @nazwa_gry = 'Gra_testowa'
+-- SET @ilosc_botow = 10
+-- EXEC DodajSrodowisko @nazwa_gry, @ilosc_botow
+-- GO
 
-IF EXISTS (SELECT *
-FROM sys.objects
-WHERE type = 'P' AND name = 'DodajSrodowisko')
-BEGIN
-    DROP PROCEDURE DodajSrodowisko
-END
-GO
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE type = 'P' AND name = 'DodajSrodowisko')
+-- BEGIN
+--     DROP PROCEDURE DodajSrodowisko
+-- END
+-- GO

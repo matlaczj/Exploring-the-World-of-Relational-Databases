@@ -14,19 +14,19 @@ BEGIN
 END
 GO
 
-DECLARE @nazwa_os varchar(20)
-DECLARE @nazwa_przedmiotu varchar(20)
-DECLARE @jakosc integer
-SET @nazwa_os = 'FoodFiesta'
-SET @nazwa_przedmiotu = 'Bookworms Collection'
-SET @jakosc = 1
-EXEC DodajPrzedmiot @nazwa_os, @nazwa_przedmiotu, @jakosc
-GO
+-- DECLARE @nazwa_os varchar(20)
+-- DECLARE @nazwa_przedmiotu varchar(20)
+-- DECLARE @jakosc integer
+-- SET @nazwa_os = 'FoodFiesta'
+-- SET @nazwa_przedmiotu = 'Bookworms Collection'
+-- SET @jakosc = 1
+-- EXEC DodajPrzedmiot @nazwa_os, @nazwa_przedmiotu, @jakosc
+-- GO
 
-IF EXISTS (SELECT *
-FROM sys.objects
-WHERE type = 'P' AND name = 'DodajPrzedmiot')
-BEGIN
-    DROP PROCEDURE DodajPrzedmiot
-END
-GO
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE type = 'P' AND name = 'DodajPrzedmiot')
+-- BEGIN
+--     DROP PROCEDURE DodajPrzedmiot
+-- END
+-- GO

@@ -14,19 +14,19 @@ BEGIN
 END
 GO
 
-DECLARE @kwota integer
-DECLARE @data datetime
-DECLARE @login varchar(20)
-SET @kwota = 100
-SET @data = GETDATE()
-SET @login = 'strategyGuru'
-EXEC DodajDoladowanie @kwota, @data, @login
-GO
+-- DECLARE @kwota integer
+-- DECLARE @data datetime
+-- DECLARE @login varchar(20)
+-- SET @kwota = 100
+-- SET @data = GETDATE()
+-- SET @login = 'strategyGuru'
+-- EXEC DodajDoladowanie @kwota, @data, @login
+-- GO
 
-IF EXISTS (SELECT *
-FROM sys.objects
-WHERE type = 'P' AND name = 'DodajDoladowanie')
-BEGIN
-    DROP PROCEDURE DodajDoladowanie
-END
-GO
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE type = 'P' AND name = 'DodajDoladowanie')
+-- BEGIN
+--     DROP PROCEDURE DodajDoladowanie
+-- END
+-- GO
