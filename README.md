@@ -1,4 +1,4 @@
-# Project Title: Advanced Database Systems - Usage of Relational Database Management Systems
+# An Odyssey: Exploring the World of Relational Databases
 
 <img src="https://th.bing.com/th/id/OIG.U936sah1U6p0RNoZoXjM?w=1024&h=1024&rs=1&pid=ImgDetMain" width="300" height="300" style="display: block; margin: auto;">
 
