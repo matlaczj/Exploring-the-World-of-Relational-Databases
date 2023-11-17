@@ -1,6 +1,6 @@
-# Project Title: Advanced Database Systems - Relational Database Management System
+# Project Title: Advanced Database Systems - Usage of Relational Database Management Systems
 
-![Alt text](logo.jpg)
+<img src="https://th.bing.com/th/id/OIG.U936sah1U6p0RNoZoXjM?w=1024&h=1024&rs=1&pid=ImgDetMain" width="300" height="300" style="display: block; margin: auto;">
 
 ## Project Overview
 This repository contains a comprehensive report on the project undertaken as part of the Advanced Database Systems course. The focus of the project is on Relational Database Management Systems (RDBMS), covering a wide range of topics from entity relationship diagrams to data migration between different database systems.
