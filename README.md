@@ -1,6 +1,9 @@
 # An Odyssey: Exploring the World of Relational Databases
 
-<img src="https://th.bing.com/th/id/OIG.U936sah1U6p0RNoZoXjM?w=1024&h=1024&rs=1&pid=ImgDetMain" width="300" height="300" style="display: block; margin: auto;">
+<p align="center">
+  <img src="an-odyssey-exploring-the-world-of-relational-databases.png" alt="Logo" width="400"/>
+</p>
+
 
 ## Project Overview
 This repository contains a comprehensive report on the project undertaken as part of the Advanced Database Systems course. The focus of the project is on Relational Database Management Systems (RDBMS), covering a wide range of topics from entity relationship diagrams to data migration between different database systems.
