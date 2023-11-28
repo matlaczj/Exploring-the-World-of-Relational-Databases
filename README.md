@@ -1,7 +1,7 @@
 # An Odyssey: Exploring the World of Relational Databases
 
 <p align="center">
-  <img src="an-odyssey-exploring-the-world-of-relational-databases.png" alt="Logo" width="400"/>
+  <img src="logo.png" alt="Logo" width="400"/>
 </p>
 
 
